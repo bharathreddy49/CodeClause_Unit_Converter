@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    
+</head>
+<body>
+    <div class="converter">
+      <h1>Unit Converter</h1>
+        <input type="number" id="inputValue" placeholder="Enter value">
+        <select id="unitFrom">
+            <option value="cm">Centimeters (cm)</option>
+            <option value="m">Meters (m)</option>
+            <option value="km">Kilometers (km)</option>
+            <option value="inch">Inches (in)</option>
+            <option value="ft">Feet (ft)</option>
+            <option value="yd">Yards (yd)</option>
+            <option value="c">Celsius(c)</option>
+            <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+        </select>
+        <select id="unitTo">
+            <option value="cm">Centimeters (cm)</option>
+            <option value="m">Meters (m)</option>
+            <option value="km">Kilometers (km)</option>
+            <option value="inch">Inches (in)</option>
+            <option value="ft">Feet (ft)</option>
+            <option value="yd">Yards (yd)</option>
+            <option value="c">Celsius(c)</option>
+            <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>

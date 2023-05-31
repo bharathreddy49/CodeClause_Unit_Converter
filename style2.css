@@ -1,0 +1,59 @@
+body {
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("http://i.stack.imgur.com/jGlzr.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times new roman', cursive;
+    color: black;
+}
+
+
+h1 {
+    color: #333333f8;
+    margin-top: 10px;
+    font-weight: bolder; 
+}
+
+.converter {
+    margin: 100px auto;
+    width: 400px;
+   
+    background-color: rgb(153, 119, 119);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+    padding: 20px;
+    margin-right: 10px;
+}
+
+select {
+    padding: 20px;
+
+    margin-right: 60px 60px;
+}
+
+button {
+    padding: 20px 50px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin:20px 20px 30px 40px;
+}
+
+p#result {
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
